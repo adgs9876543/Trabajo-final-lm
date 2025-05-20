@@ -1,0 +1,116 @@
+
+body {
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    max-width: 600px;
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 2.2rem;
+    color: #00796b;
+    margin-bottom: 30px;
+}
+
+
+input[type="text"] {
+    border: 2px solid #b2dfdb;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #00796b;
+    box-shadow: none;
+}
+
+
+button, .btn {
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #00796b;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #004d40;
+}
+
+.btn-success {
+    background-color: #43a047;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #2e7d32;
+}
+
+.btn-danger:hover {
+    background-color: #c62828;
+}
+
+
+.alert {
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 0.95rem;
+    border-radius: 6px;
+}
+
+
+.list-group-item {
+    background-color: #e0f2f1;
+    border: none;
+    transition: background-color 0.2s ease;
+    font-size: 1rem;
+}
+
+.list-group-item:hover {
+    background-color: #b2dfdb;
+}
+
+
+#ganador {
+    color: #2e7d32;
+    transition: transform 0.3s ease;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+
+input[type="file"] {
+    font-size: 0.9rem;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #ganador {
+        font-size: 1.5rem;
+    }
+}
